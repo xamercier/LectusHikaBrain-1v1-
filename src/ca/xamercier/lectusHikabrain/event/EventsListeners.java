@@ -432,7 +432,7 @@ public class EventsListeners implements Listener {
 			return;
 		}
 		if (!(p.getGameMode() == GameMode.SPECTATOR) && GameState.isState(GameState.RUNNING)) {
-			if (p.getLocation().getY() == 38) {
+			if (p.getLocation().getY() == 39) {
 				if (TeamUtils.getInstance().containsPlayerInTeam(p, "ROUGE")) {
 					p.setHealth(20);
 					p.setFoodLevel(20);
